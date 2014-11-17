@@ -100,7 +100,7 @@ section {
 }
 
 .media {
-	margin: auto auto;
+	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
@@ -108,7 +108,7 @@ section {
 
 .media > li {
 	display: inline-block;
-	margin: 0 2rem;
+	margin: auto 2rem;
 }
 
 .media li a,
