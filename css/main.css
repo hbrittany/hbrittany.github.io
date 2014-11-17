@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	padding: 0 auto;
+	font: normal 100%/1.5 Muli,sans-serif;
+	background-color: #f7ec42;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+section {
+	padding: 5rem 0;
+}
+
+.masthead {
+	background-color: #F0F;
+	height: 4.5rem;
+	position: fixed;
+	width: 100%;
+	z-index: 100; /* Puts this emlement on top of the rest */
+}
+
+.blurb {
+	background-color: rgba(255,255,255,.8);
+	padding: 5rem 2rem;
+	width:20rem;
+	margin: auto auto;
+}
+
+@media only screen and (min-width: 55em){
+	.blurb{
+		width:25rem;
+	}
+}
+
+.logo {
+	width: 300px;
+}
+
+.intro-section {
+	background: transparent url('../images/intro.jpg') no-repeat right bottom;
+	background-size: cover;
+	padding: 12rem 0;
+}
+
+.dipper {
+	opacity: 0;
+	width: 240px;
+}
+
+.one-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.two-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.three-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.four-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.five-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.six-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.seven-section {
+		background: url('http://placehold.it/350x150') no-repeat center;
+		background-size: cover;
+}
+
+.media-section {
+	background: url('../images/intro.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+.media {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.media > li {
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+
+
+.media li a,
+.media li a:link,
+.media li:visited {
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right:.5rem;
+	text-align: center;
+	padding: .5rem;
+	color:#f7ec42;
+	
+	
+	-webkit-box-shadow: inset 0px 0px 0px 0px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	box-shadow: inset 0px 0px 0px 4px #f7ec42;
+}
+
+.media li a:hover,
+.media li a:focus,
+.media li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	
+	color: #000;
+
+}
+
+.nav-btn li a,
+.nav-btn li a:link,
+.nav-btn li:visited {
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right:.5rem;
+	text-align: center;
+	padding: .5rem;
+	color:#f7ec42;
+	
+	
+	-webkit-box-shadow: inset 0px 0px 0px 0px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	box-shadow: inset 0px 0px 0px 4px #f7ec42;
+}
+
+.nav-btn li a:hover,
+.nav-btn li a:focus,
+.nav-btn li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	
+	color: #000;
+
+}
+
+.data {
+  margin: 0 auto 1.5rem;
+  overflow: hidden;
+}
+
+.data__item {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 55em){
+	.data__item{
+		border-right: 1px solid #fff;
+		float: left;
+		width: 33.33%;
+	}
+	.data__item:last-child {
+  		border-right: none;
+	}
+}
+
+
+.data__title {
+  margin: 0;
+  color: #999;
+  font-size: 0.7901rem;
+  line-height: 1.8984;
+  text-transform: uppercase;
+}
+
+.data__info {
+  margin: 0;
+}
