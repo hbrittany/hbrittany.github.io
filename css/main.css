@@ -31,7 +31,7 @@ section {
 }
 
 @media only screen and (min-width: 55em){
-	.blurb{
+	.blurb {
 		width:25rem;
 	}
 }
@@ -89,7 +89,7 @@ section {
 .media-section {
 	background: transparent url('../images/intro.jpg') no-repeat center bottom;
 	background-size: cover;
-	padding: 7rem 0;
+	padding: 6rem 0;
 }
 
 .hide-text {
@@ -111,11 +111,6 @@ section {
 	margin: auto 2rem;
 }
 
-.media i {
-	text-align: center;
-	margin: auto;
-}
-
 .media li a,
 .media li a:link,
 .media li:visited {
@@ -125,7 +120,6 @@ section {
 	width: 50px;
 	margin-right: .5rem;
 	text-align: center;
-	padding: auto;
 	color: #f7ec42;
 	
 	
@@ -205,7 +199,7 @@ section {
 
 .data__title {
   margin: 0;
-  color: #999;
+  color: #FFF;
   font-size: 0.7901rem;
   line-height: 1.8984;
   text-transform: uppercase;
@@ -213,4 +207,15 @@ section {
 
 .data__info {
   margin: 0;
+}
+
+.expanded {
+	background-color: #FFF;
+	color: #000;
+	padding: 3rem;
+}
+
+.expanded p {
+	margin: 0 auto;
+	max-width: 25rem;
 }
