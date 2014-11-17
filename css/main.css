@@ -111,6 +111,11 @@ section {
 	margin: auto 2rem;
 }
 
+.media i {
+	text-align: center;
+	margin: auto;
+}
+
 .media li a,
 .media li a:link,
 .media li:visited {
