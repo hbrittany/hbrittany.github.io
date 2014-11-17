@@ -87,8 +87,9 @@ section {
 }
 
 .media-section {
-	background: url('../images/intro.jpg') no-repeat center top;
+	background: url('../images/intro.jpg') no-repeat center bottom;
 	background-size: cover;
+	padding: 7rem 0;
 }
 
 .hide-text {
@@ -99,7 +100,7 @@ section {
 }
 
 .media {
-	margin: 0;
+	margin: auto auto;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
@@ -110,8 +111,6 @@ section {
 	margin: 0 2rem;
 }
 
-
-
 .media li a,
 .media li a:link,
 .media li:visited {
@@ -119,10 +118,10 @@ section {
 	float: left;
 	height: 50px;
 	width: 50px;
-	margin-right:.5rem;
+	margin-right: .5rem;
 	text-align: center center;
 	padding: auto;
-	color:#f7ec42;
+	color: #f7ec42;
 	
 	
 	-webkit-box-shadow: inset 0px 0px 0px 0px #f7ec42;

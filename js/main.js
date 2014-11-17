@@ -10,7 +10,6 @@ $win.on('scroll', function () {
 
 
   $introSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
-
   $mediaSection.css('background-position', 'center ' + mediaPos + 'px');
 });
 
