@@ -87,7 +87,7 @@ section {
 }
 
 .media-section {
-	background: url('../images/intro.jpg') no-repeat center bottom;
+	background: transparent url('../images/intro.jpg') no-repeat center bottom;
 	background-size: cover;
 	padding: 7rem 0;
 }
@@ -119,7 +119,7 @@ section {
 	height: 50px;
 	width: 50px;
 	margin-right: .5rem;
-	text-align: center center;
+	text-align: center;
 	padding: auto;
 	color: #f7ec42;
 	
