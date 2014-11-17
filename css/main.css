@@ -91,6 +91,13 @@ section {
 	background-size: cover;
 }
 
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
 .media {
 	margin: 0;
 	padding: 0;
@@ -110,11 +117,11 @@ section {
 .media li:visited {
 	display: inline-block;
 	float: left;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	margin-right:.5rem;
 	text-align: center;
-	padding: .5rem;
+	padding: .2rem;
 	color:#f7ec42;
 	
 	
@@ -168,7 +175,6 @@ section {
 	box-shadow: inset 0px 0px 0px 40px #f7ec42;
 	
 	color: #000;
-
 }
 
 .data {
@@ -184,10 +190,11 @@ section {
 	.data__item{
 		border-right: 1px solid #fff;
 		float: left;
-		width: 33.33%;
+		width: 33%;
 	}
+	
 	.data__item:last-child {
-  		border-right: none;
+  		border-right: 0px;
 	}
 }
 
