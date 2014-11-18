@@ -92,9 +92,9 @@ section {
 }
 
 .media-section {
-	background: transparent url('../images/intro.jpg') no-repeat center top;
+	background: transparent url('../images/intro.jpg') no-repeat center bottom;
 	background-size: cover;
-	padding: 6rem 0;
+	padding-bottom: 6rem;
 }
 
 .hide-text {
@@ -145,7 +145,7 @@ section {
 	-o-box-shadow: inset 0px 0px 0px 40px #fff;
 	box-shadow: inset 0px 0px 0px 40px #fff;
 	
-	color: #000;
+	color: #f7ec42;
 }
 
 .nav-btn li a,
