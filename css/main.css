@@ -127,21 +127,21 @@ section {
 	text-align: center;
 	color: #f7ec42;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 0px #f7ec42;
-	-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 4px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 4px #fff;
+	-o-box-shadow: inset 0px 0px 0px 4px #fff;
+	box-shadow: inset 0px 0px 0px 4px #fff;
 }
 
 .media li a:hover,
 .media li a:focus,
 .media li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 40px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 40px #fff;
+	-o-box-shadow: inset 0px 0px 0px 40px #fff;
+	box-shadow: inset 0px 0px 0px 40px #fff;
 	
 	color: #000;
 }
