@@ -13,7 +13,3 @@ $win.on('scroll', function () {
   $mediaSection.css('background-position', 'center ' + mediaPos + 'px');
 });
 
-
-$mediaSection.waypoint(function() {
-  $media.addClass('js-media-animate');
-}, { offset: '50%' });
