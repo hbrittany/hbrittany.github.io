@@ -339,6 +339,7 @@ header {
 	background: transparent url('../images/intro.jpg') no-repeat center bottom;
 	background-size: cover;
 	padding-bottom: 6rem;
+	bottom: 0;
 }
 
 .hide-text {
