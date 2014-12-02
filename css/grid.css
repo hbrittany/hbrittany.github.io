@@ -19,14 +19,6 @@
   padding: 1rem;
 }
 
-.grid-left {
-  float: left;
-}
-
-.grid-right {
-  float:right;
-}
-
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em;
 }

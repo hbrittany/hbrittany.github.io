@@ -53,6 +53,7 @@ header {
 
 .nav-btn,
 .nav-btn:link,
+.nav-btn:hover,
 .nav-btn:visited{
 	display: block;
 	height: 40px;
@@ -65,10 +66,10 @@ header {
 	white-space: nowrap;
 }
 
-.nav-btn:hover,
+
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #FFF;
+	background: transparent url('') no-repeat center center;
 }
 
 .nav > ul {
@@ -85,7 +86,7 @@ header {
 	padding: 0.5rem;
 	text-align:center;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 
 		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
 		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
@@ -218,8 +219,8 @@ header {
 	background-color: #fff;
 }
 
-.bio img {
-	max-width: 20rem;
+.bio img{
+	margin-bottom: 0;
 }
 /*---- expand ----*/
 
@@ -291,8 +292,9 @@ header {
 	padding: 12rem 0;
 }
 
-.intro-section p {
-	margin: 0 5rem;
+.bio p {
+	margin: 0rem 5rem;
+	color:#000;
 }
 
 .dipper {
@@ -336,7 +338,7 @@ header {
 }
 
 .media-section {
-	background: transparent url('../images/intro.jpg') no-repeat center bottom;
+	background: transparent url('../images/cover-3.jpg') no-repeat center bottom;
 	background-size: cover;
 	padding-bottom: 6rem;
 	bottom: 0;
@@ -372,25 +374,25 @@ header {
 	text-align: center;
 	padding-top: .8125rem;
 	
-	color: #fff;
+	color: #f7ec42;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 4px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 4px #fff;
-	-o-box-shadow: inset 0px 0px 0px 4px #fff;
-	box-shadow: inset 0px 0px 0px 4px #fff;
+	-webkit-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	box-shadow: inset 0px 0px 0px 4px #f7ec42;
 }
 
 .media li a:hover,
 .media li a:focus,
 .media li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 30px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 30px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 30px #fff;
-	-o-box-shadow: inset 0px 0px 0px 30px #fff;
-	box-shadow: inset 0px 0px 0px 30px #fff;
+	-webkit-box-shadow: inset 0px 0px 0px 30px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 30px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 30px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 30px #f7ec42;
+	box-shadow: inset 0px 0px 0px 30px #f7ec42;
 	
-	color: #f7ec42;
+	color: #fff;
 }
 
 .data {
