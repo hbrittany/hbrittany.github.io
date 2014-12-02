@@ -287,9 +287,9 @@ header {
 }
 
 .intro-section {
-	background: transparent url('../images/cover-3.jpg') no-repeat center left;
+	background: transparent url('../images/cover-3.jpg') no-repeat center center;
 	background-size: cover;
-	padding: 12rem 0;
+	padding: 15rem 0;
 }
 
 .bio p {
@@ -338,9 +338,9 @@ header {
 }
 
 .media-section {
-	background: transparent url('../images/bottom.jpg') no-repeat center bottom;
+	background: transparent url('../images/bottom-2.jpg') no-repeat center bottom;
 	background-size: cover;
-	padding-bottom: 6rem;
+	padding: 8rem;
 	bottom: 0;
 }
 
@@ -396,7 +396,7 @@ header {
 }
 
 .data {
-  margin: 0 auto 1.5rem;
+  margin: 2rem auto 4rem;
   overflow: hidden;
 }
 
