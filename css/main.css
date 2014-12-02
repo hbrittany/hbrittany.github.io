@@ -48,7 +48,6 @@ header {
 		width: 80px;
 		visibility: visible;
 	}
-
 }
 
 .nav-btn,
@@ -220,7 +219,7 @@ header {
 }
 
 .bio img{
-	margin-bottom: 0;
+
 }
 /*---- expand ----*/
 
@@ -340,8 +339,13 @@ header {
 .media-section {
 	background: transparent url('../images/bottom-2.jpg') no-repeat center bottom;
 	background-size: cover;
-	padding: 8rem;
 	bottom: 0;
+}
+
+@media only screen and (min-width: 40em) {
+	.media-section {
+		padding: 8rem;
+	}
 }
 
 .hide-text {
@@ -366,7 +370,7 @@ header {
 .media li a,
 .media li a:link,
 .media li:visited {
-	display: inline-block;
+	display: inline;
 	float: left;
 	height: 40px;
 	width: 50px;
