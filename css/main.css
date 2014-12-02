@@ -338,7 +338,7 @@ header {
 }
 
 .media-section {
-	background: transparent url('../images/cover-3.jpg') no-repeat center bottom;
+	background: transparent url('../images/bottom.jpg') no-repeat center bottom;
 	background-size: cover;
 	padding-bottom: 6rem;
 	bottom: 0;
@@ -451,7 +451,6 @@ header {
 	float: right;
 }
 
-.gallery
 
 
 
