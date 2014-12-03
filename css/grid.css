@@ -14,10 +14,6 @@
   -ms-align-items: flex-end;
 }
 
-.grid img {
-  width: 100%;
-}
-
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em;
 }
