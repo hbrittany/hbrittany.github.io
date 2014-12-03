@@ -325,7 +325,7 @@ header {
 }
 
 .one-section {
-		background: transparent url('http://placehold.it/350x150') no-repeat center;
+		background: transparent url('../images/covers/sc.jpg') no-repeat center;
 		background-size: cover;
 }
 
@@ -340,7 +340,7 @@ header {
 }
 
 .four-section {
-		background: url('http://placehold.it/350x150') no-repeat center;
+		background: url('../images/covers/lgw-2.jpg') no-repeat center;
 		background-size: cover;
 }
 
