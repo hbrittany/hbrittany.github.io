@@ -225,26 +225,18 @@ header {
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
-	text-align: center;
-
 }
 
 .bio img {
 	max-width: 20rem;
 }
 
-
 @media only screen and (min-width: 55em){
-	.bio p {
-		padding-left:5rem;
-		padding-right: 5rem;
+	.about{
+		width:50rem;
+		margin: 0 auto;
 	}
 }
-
-.profile {
-	float: right;
-}
-
 /*---- expand ----*/
 
 .expanded {
