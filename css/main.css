@@ -41,6 +41,7 @@ header {
 	font-size: 1em;
 }
 
+
 @media only screen and (min-width: 35em) {
 
 	.nav-logo {
@@ -211,16 +212,23 @@ header {
 	}
 }
 
-.bio {
+.bio h2{
 	border-bottom: 2px solid #f7ec42;
 	padding-top: 3rem;
 	color: #f7ec42;
+}
+
+.bio {
 	background-color: #fff;
+	height: 100%;
+	position: relative;
+	padding: 0;
 }
 
-.bio img{
-
+.bio img {
+	max-width: 20rem;
 }
+
 /*---- expand ----*/
 
 .expanded {
@@ -291,10 +299,6 @@ header {
 	padding: 15rem 0;
 }
 
-.bio p {
-	margin: 0rem 5rem;
-	color:#000;
-}
 
 .dipper {
 	opacity: 0;
@@ -456,7 +460,70 @@ header {
 }
 
 
+.embed {
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	width: 100%;
+}
 
+.embed--1by1 {
+	/* Square */
+	padding-top: 100%;
+}
+
+.embed--4by3 {
+	/* Traditional TV/computer screens */
+	padding-top: 75%;
+}
+
+.embed--iso216 {
+	/* A-standard paper sizes */
+	padding-top: 70.92%;
+}
+
+.embed--3by2 {
+	/* Classic 35 mm film */
+	padding-top: 66.6%;
+}
+
+.embed--golden {
+	/* The Golden Ratio */
+	padding-top: 61.8%;
+}
+
+.embed--16by9 {
+	/* HD TV */
+	padding-top: 56.25%;
+}
+
+.embed--185by100 {
+	/* Common widescreen cinema */
+	padding-top: 54.05%;
+}
+
+.embed--24by10 {
+	/* Widescreen cinema: 2.4:1 */;
+	padding-top: 41.667%;
+}
+
+.embed--3by1 {
+	/* Panorama photos */
+	padding-top: 33.33333%;
+}
+
+.embed--4by1 {
+	/* Polyvision */
+	padding-top: 25%;
+}
+
+.embed__item {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
 
 
 
