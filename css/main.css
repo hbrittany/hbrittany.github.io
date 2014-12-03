@@ -97,9 +97,7 @@ header {
 	/* border-width || border-style || border-color */
 }
 
-.nav a:hover,
-.nav a:focus,
-.nav a:active{
+.nav a:hover {
 	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
 	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
 	-ms-box-shadow: inset 0px 0px 0px 3px #fff;
