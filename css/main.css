@@ -70,14 +70,23 @@ header {
 
 .nav-btn:focus,
 .nav-btn:active {
-	background: transparent url('') no-repeat center center;
+	background: transparent url('../images/nav-icon.svg') no-repeat center center;
 }
 
 .nav > ul {
 	margin: 0;
-	padding: 0.8em 0;
-	text-align: center;
+	padding-top: 2.5rem;
 	list-style-type: none;
+}
+
+.nav > li {
+	text-align: center;
+}
+
+@media only screen and (min-width: 35em) {
+	.nav > ul {
+		padding-top: 0.8rem;
+	}
 }
 
 .nav a, 
