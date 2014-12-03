@@ -221,13 +221,21 @@ header {
 .bio {
 	background-color: #fff;
 	height: 100%;
-	position: relative;
 	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
 
 }
 
 .bio img {
 	max-width: 20rem;
+}
+
+
+.profile {
+	float: right;
 }
 
 /*---- expand ----*/
@@ -273,9 +281,19 @@ header {
 
 .blurb {
 	background-color: rgba(255,255,255,.96);
-	padding: 3.5rem 2rem;
+	padding: 2.5rem 1rem;
 	width:20rem;
 	margin: auto auto;
+}
+
+.blurb h3 {
+	font-size: 1.1250rem;
+	line-height: 1.3333;
+}
+
+.blurb p {
+	font-size: 0.8889rem;
+	line-height: 1.6875;
 }
 
 @media only screen and (min-width: 55em){
@@ -452,11 +470,11 @@ header {
 }
 
 
-.gallery-1 {
+.unit-left {
 	float: left;
 }
 
-.gallery-2 {
+.unit-right {
 	float: right;
 }
 
