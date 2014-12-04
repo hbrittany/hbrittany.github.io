@@ -260,7 +260,7 @@ header {
 }
 
 .expanded[data-state="expanded"] {
-	max-height: 200em;
+	max-height: 100em;
 	padding: 3rem;
 }
 
