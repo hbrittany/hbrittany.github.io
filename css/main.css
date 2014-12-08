@@ -41,7 +41,6 @@ header {
 	font-size: 1em;
 }
 
-
 @media only screen and (min-width: 35em) {
 
 	.nav-logo {
@@ -53,6 +52,66 @@ header {
 
 .nav-btn,
 .nav-btn:link,
+.nav-btn:visited{
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 8px;
+	height: 35px;
+	width: 35px;
+	background: url('../images/nav-icon.svg') no-repeat center top;
+	z-index: 5;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+	text-decoration: none;
+	display: block;
+	padding: 0.5rem;
+	color: #000;
+	text-align: center;
+
+		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
+		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
+		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
+		-o-box-shadow: inset 0px 0px 0px 0px #fff;
+		box-shadow: inset 0px 0px 0px 0px #fff;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	color: #fff;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 3px #fff;
+	-o-box-shadow: inset 0px 0px 0px 3px #fff;
+	box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.nav ul {
+	display: inline;
+	padding: 0;
+}
+
+.nav-top{
+	max-height: 0;
+	overflow: hidden;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 40em;
+}
+
+/*--   testing 
+.nav-btn,
+.nav-btn:link,
 .nav-btn:hover,
 .nav-btn:visited{
 	display: block;
@@ -61,7 +120,6 @@ header {
 	top: 10px;	
 	right: 5%;
 	position: absolute;
-	
 	background: transparent url('../images/nav-icon.svg') no-repeat center center;
 	text-indent: 100%;
 	white-space: nowrap;
@@ -74,7 +132,7 @@ header {
 }
 
 .nav ul {
-	padding: 45px 0 0 0;
+	padding: 0;
 	display: inline;
 }
 
@@ -84,10 +142,12 @@ header {
 
 @media only screen and (min-width: 35em) {
 	.nav ul {
-		padding-top: 3.8rem;
-		margin-bottom: .5rem;
 		list-style-type: none;
 		text-align: center;
+	}
+
+	.nav {
+		padding-top: 0.8rem; 
 	}
 }
 
@@ -105,7 +165,7 @@ header {
 		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
 		-o-box-shadow: inset 0px 0px 0px 0px #fff;
 		box-shadow: inset 0px 0px 0px 0px #fff;
-	/* border-width || border-style || border-color */
+	/* border-width || border-style || border-color 
 }
 
 .nav a:hover {
@@ -151,7 +211,7 @@ header {
 }
  ----*/
 
-	/* Toggle Nav*/
+	/* Toggle Nav
 
 .nav-top{
 	display: none;
@@ -161,21 +221,14 @@ header {
 .nav-top[data-state="expanded"]{
 	display: block;
 }
-	
+	*/
 @media only screen and (min-width: 35em){
-	.nav{
-		overflow: auto;
-	}
 
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
 		display: none;
 	}
-	
-	.nav-top{
-		display: block;
-	}	
 }
 
 @media only screen and (min-width: 35em){
@@ -183,14 +236,13 @@ header {
 		text-align: center;
 		float: right;
 		position:inherit;
-
+		display: inline-block;
 	}
 	
 	.nav li{
 		float: left;
 		width: 33.33%;
 		display: inline-block;
-		float: none;
 		width:auto;
 	}
 	
@@ -201,8 +253,12 @@ header {
 	}
 	
 	.nav-top{
+		width: auto;
 		float: right;
-		margin-right: 5%;
+		max-height: none;
+		padding-top: 0.8rem;
+		margin-right: 2%;
+		display: inline-block;
 	}
 	
 	h1{
@@ -221,6 +277,7 @@ header {
 	float: left;
 	}
 }
+
 
 .bio h2{
 	border-bottom: 2px solid #f7ec42;
