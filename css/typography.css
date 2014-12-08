@@ -45,11 +45,13 @@ h4, .giga {
 h5, .mega {
 	font-size: 1.1250rem;
 	line-height: 1.3333;
+	color: #c7c0ae;
 }
 
 h6, .kilo {
 	font-size: 1.0000rem;
 	line-height: 1.5000;
+
 }
 
 small, .milli {
