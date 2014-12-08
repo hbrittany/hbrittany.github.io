@@ -213,7 +213,7 @@ header {
 }
 
 .expanded[data-state="expanded"] {
-	max-height: 150em;
+	max-height: 550em;
 	padding: 3rem;
 }
 
@@ -279,29 +279,23 @@ header {
 	padding: 15rem 0;
 }
 
-
-.dipper {
-	opacity: 0;
-	width: 240px;
-}
-
 .one-section {
 		background: transparent url('../images/product-page/web-page.jpg') no-repeat top;
 		background-size: cover;
 }
 
 .two-section {
-		background: transparent url('http://placehold.it/350x150') no-repeat center;
+		background: url('../images/map-design/map.jpg') no-repeat top;
 		background-size: cover;
 }
 
 .three-section {
-		background: transparent url('http://placehold.it/350x150') no-repeat center;
+		background: transparent url('../images/haunted-carnival/web-page.jpg') no-repeat top;
 		background-size: cover;
 }
 
 .four-section {
-		background: url('../images/covers/lgw-4.jpg') no-repeat center;
+		background: url('../images/lg-wash/screen-4.jpg') no-repeat center;
 		background-size: cover;
 }
 
@@ -316,7 +310,7 @@ header {
 }
 
 .seven-section {
-		background: url('http://placehold.it/350x150') no-repeat center;
+		background: url('../images/brand/mockup.jpg') no-repeat bottom;
 		background-size: cover;
 }
 
@@ -337,6 +331,10 @@ header {
 	white-space: nowrap;
 	overflow: hidden;
 	display: block;
+}
+
+.gallery img {
+	padding-top: 0.5rem;
 }
 
 .media {
