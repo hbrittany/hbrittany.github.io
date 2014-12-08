@@ -230,21 +230,34 @@ header {
 	background-color: #fff;
 	height: 100%;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0;
 	position: relative;
 	overflow: hidden;
+}
+
+.about {
+	margin: 0;
 }
 
 .bio img {
 	max-width: 20rem;
 }
 
-
-@media only screen and (min-width: 55em){
-	.about{
-		width:50rem;
-		margin: 0 auto;
+@media only screen and (min-width: 30em) {
+	.bottom {
+		bottom: 0;
+		position: absolute;
+		max-width: 20rem;
 	}
+
+	.about{
+		max-width:50rem;
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 35em){
+
 }
 /*---- expand ----*/
 
@@ -439,11 +452,7 @@ header {
   margin: 0 auto;
 }
 
-.bottom {
-	bottom: 0;
-	position: absolute;
-	max-width: 20rem;
-}
+
 
 @media only screen and (min-width: 55em){
 	.data__item{
