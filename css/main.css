@@ -236,13 +236,13 @@ header {
 		text-align: center;
 		float: right;
 		position:inherit;
-		display: inline-block;
+		display: inline
 	}
 	
 	.nav li{
 		float: left;
 		width: 33.33%;
-		display: inline-block;
+		display: inline;
 		width:auto;
 	}
 	
@@ -258,7 +258,7 @@ header {
 		max-height: none;
 		padding-top: 0.8rem;
 		margin-right: 2%;
-		display: inline-block;
+		display: inline;
 	}
 	
 	h1{
