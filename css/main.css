@@ -73,19 +73,21 @@ header {
 	background: transparent url('../images/nav-icon.svg') no-repeat center center;
 }
 
-.nav > ul {
-	margin: 0;
-	padding-top: 2.5rem;
-	list-style-type: none;
+.nav ul {
+	padding: 45px 0 0 0;
+	display: inline;
 }
 
-.nav > li {
+.nav li {
 	text-align: center;
 }
 
 @media only screen and (min-width: 35em) {
-	.nav > ul {
-		padding-top: 0.8rem;
+	.nav ul {
+		padding-top: 3.8rem;
+		margin-bottom: .5rem;
+		list-style-type: none;
+		text-align: center;
 	}
 }
 
@@ -252,7 +254,7 @@ header {
 	}
 
 	.about{
-		max-width:45rem;
+		max-width:49rem;
 	}
 }
 /*---- expand ----*/
@@ -402,7 +404,7 @@ header {
 	text-align: center;
 }
 
-.media > li {
+.media li {
 	display: inline-block;
 	margin: auto 2rem;
 }
