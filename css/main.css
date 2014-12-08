@@ -106,119 +106,6 @@ header {
 	max-height: 40em;
 }
 
-/*--   testing 
-.nav-btn,
-.nav-btn:link,
-.nav-btn:hover,
-.nav-btn:visited{
-	display: block;
-	height: 40px;
-	width: 40px;
-	top: 10px;	
-	right: 5%;
-	position: absolute;
-	background: transparent url('../images/nav-icon.svg') no-repeat center center;
-	text-indent: 100%;
-	white-space: nowrap;
-}
-
-
-.nav-btn:focus,
-.nav-btn:active {
-	background: transparent url('../images/nav-icon.svg') no-repeat center center;
-}
-
-.nav ul {
-	padding: 0;
-	display: inline;
-}
-
-.nav li {
-	text-align: center;
-}
-
-@media only screen and (min-width: 35em) {
-	.nav ul {
-		list-style-type: none;
-		text-align: center;
-	}
-
-	.nav {
-		padding-top: 0.8rem; 
-	}
-}
-
-.nav a, 
-.nav a:link,
-.nav a:visited{
-	display: block;
-	padding: 0.5rem;
-	text-align:center;
-	text-decoration: none;
-	color: #000;
-
-		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
-		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
-		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
-		-o-box-shadow: inset 0px 0px 0px 0px #fff;
-		box-shadow: inset 0px 0px 0px 0px #fff;
-	/* border-width || border-style || border-color 
-}
-
-.nav a:hover {
-	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 3px #fff;
-	-o-box-shadow: inset 0px 0px 0px 3px #fff;
-	box-shadow: inset 0px 0px 0px 3px #fff;
-	
-	color: #fff;
-}
-
-/*--- for the scroll down 
-	.nav a, 
-	.nav a:link,
-	.nav a:visited{
-		display: block;
-		padding: 0.5rem;
-		text-align:center;
-		color: #fff;
-		text-decoration: none;
-		color: #000;
-
-		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
-		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
-		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
-		-o-box-shadow: inset 0px 0px 0px 0px #fff;
-		box-shadow: inset 0px 0px 0px 0px #fff;
-
-	}
-
-	.nav a:hover,
-	.nav a:focus,
-	.nav a:active{
-		-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
-		-moz-box-shadow: inset 0px 0px 0px 3px #fff;
-		-ms-box-shadow: inset 0px 0px 0px 3px #fff;
-		-o-box-shadow: inset 0px 0px 0px 3px #fff;
-		box-shadow: inset 0px 0px 0px 3px #fff;
-		
-		color: #fff;
-	}
-}
- ----*/
-
-	/* Toggle Nav
-
-.nav-top{
-	display: none;
-}
-
-
-.nav-top[data-state="expanded"]{
-	display: block;
-}
-	*/
 @media only screen and (min-width: 35em){
 
 	.nav-btn,
@@ -399,7 +286,7 @@ header {
 }
 
 .one-section {
-		background: transparent url('../images/covers/sc-3.jpg') no-repeat center;
+		background: transparent url('../images/product-page/web-page.jpg') no-repeat top;
 		background-size: cover;
 }
 
