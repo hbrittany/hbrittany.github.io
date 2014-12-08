@@ -260,7 +260,7 @@ header {
 }
 
 .expanded[data-state="expanded"] {
-	max-height: 100em;
+	max-height: 150em;
 	padding: 3rem;
 }
 
@@ -439,6 +439,12 @@ header {
   margin: 0 auto;
 }
 
+.bottom {
+	bottom: 0;
+	position: absolute;
+	max-width: 20rem;
+}
+
 @media only screen and (min-width: 55em){
 	.data__item{
 		border-right: 1px solid #fff;
@@ -475,15 +481,6 @@ header {
 .expanded p {
 	margin: 1rem auto;
 	max-width: 25rem;
-}
-
-
-.unit-left {
-	float: left;
-}
-
-.unit-right {
-	float: right;
 }
 
 .push {
