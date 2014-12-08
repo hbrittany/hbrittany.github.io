@@ -84,9 +84,7 @@ header {
 		box-shadow: inset 0px 0px 0px 0px #fff;
 }
 
-.nav a:hover,
-.nav a:focus,
-.nav a:active{
+.nav a:hover {
 	color: #fff;
 	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
 	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
@@ -96,7 +94,6 @@ header {
 }
 
 .nav ul {
-	display: inline;
 	padding: 0;
 }
 
@@ -241,6 +238,7 @@ header {
 	
 	.nav li{
 		float: left;
+		padding:0.2rem;
 		width: 33.33%;
 		display: inline;
 		width:auto;
