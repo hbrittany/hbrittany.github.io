@@ -87,20 +87,18 @@ a,
 a:link {
 	/*border-bottom: 0.1em solid rgba(159,34,27,0.5);*/
 	transition: all 150ms linear;
-	color: #9f221b;
+	color: #000;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #a9381d;
-	border-bottom-color: rgba(169,56,29,0.5);
+	color: #000;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #ca221b;
-	border-bottom-color: #ca221b;
+	color: #000;
 }
 
 .push {
