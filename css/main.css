@@ -35,6 +35,10 @@ header {
 	visibility: hidden;
 }
 
+.logo {
+	width: 350px;
+}
+
 .logo-wrapper {
 	margin: 0;
 	padding: 0;
@@ -263,18 +267,8 @@ header {
 	}
 }
 
-.logo {
-	width: 300px;
-}
-
-@media only screen and (min-width: 35em) {
-	.logo {
-		visibility: hidden;
-	}
-}
-
 .intro-section {
-	background: transparent url('../images/cover-3.jpg') no-repeat center center;
+	background: transparent url('../images/cover-4.jpg') no-repeat center center;
 	background-size: cover;
 	padding: 15rem 0;
 }
@@ -315,7 +309,7 @@ header {
 }
 
 .media-section {
-	background: transparent url('../images/bottom-2.jpg') no-repeat center bottom;
+	background: transparent url('../images/bottom-3.jpg') no-repeat center bottom;
 	background-size: cover;
 	bottom: 0;
 }
@@ -362,23 +356,23 @@ header {
 	
 	color: #f7ec42;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-	box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	-webkit-box-shadow: inset 0px 0px 0px 4px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 4px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 4px #fff;
+	-o-box-shadow: inset 0px 0px 0px 4px #fff;
+	box-shadow: inset 0px 0px 0px 4px #fff;
 }
 
 .media li a:hover,
 .media li a:focus,
 .media li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 30px #f7ec42;
-	-moz-box-shadow: inset 0px 0px 0px 30px #f7ec42;
-	-ms-box-shadow: inset 0px 0px 0px 30px #f7ec42;
-	-o-box-shadow: inset 0px 0px 0px 30px #f7ec42;
-	box-shadow: inset 0px 0px 0px 30px #f7ec42;
+	-webkit-box-shadow: inset 0px 0px 0px 30px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 30px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 30px #fff;
+	-o-box-shadow: inset 0px 0px 0px 30px #fff;
+	box-shadow: inset 0px 0px 0px 30px #fff;
 	
-	color: #fff;
+	color: #f7ec42;
 }
 
 .data {

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
+<symbol  id="logo" viewBox="-230.9 -230.9 461.8 461.8">
+	<line fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" x1="13" y1="-11.9" x2="140.7" y2="-97"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" x1="13" y1="19.1" x2="140.7" y2="-66"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" x1="-130.6" y1="115" x2="-12" y2="35.1"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M-12.4,130.4c0,0-198.5,13.7-91.4-64.4l91.4-62.8
+		V130.4z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M-78.7,48.6c0,0-93.9-35.2-85.2-99.8
+		c8.7-64.6,50.5-78.8,151.5-77.9V4.4L-78.7,48.6z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M225.4,0c0,124.5-100.9,225.4-225.4,225.4
+		S-225.4,124.5-225.4,0S-124.5-225.4,0-225.4S225.4-124.5,225.4,0z"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" x1="13" y1="-134.4" x2="13" y2="134.7"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" x1="140.7" y1="-134.4" x2="140.7" y2="134.7"/>
+</symbol>
+<use xlink:href="#logo"  width="461.8" height="461.8" id="XMLID_8_" x="-230.9" y="-230.9" transform="matrix(0.9242 0 0 -0.9242 317.785 241.2676)" overflow="visible"/>
+</svg>
