@@ -268,7 +268,7 @@ header {
 }
 
 .intro-section {
-	background: transparent url('../images/cover-4.jpg') no-repeat center center;
+	background: transparent url('../images/coverimg.jpg') no-repeat center center;
 	background-size: cover;
 	padding: 15rem 0;
 }
@@ -354,7 +354,7 @@ header {
 	text-align: center;
 	padding-top: .8125rem;
 	
-	color: #f7ec42;
+	color: #fff;
 	
 	-webkit-box-shadow: inset 0px 0px 0px 4px #fff;
 	-moz-box-shadow: inset 0px 0px 0px 4px #fff;
