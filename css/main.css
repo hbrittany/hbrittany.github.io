@@ -54,7 +54,6 @@ header {
 	}
 }
 
-
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -68,22 +67,6 @@ header {
 	z-index: 5;
 }
 
-/*
-.expand,
-.expand:link,
-.expand:visited{
-	display: inline-block;
-	margin: 1rem auto;
-	height: 50px;
-	background: url('../images/expand.svg') no-repeat center top;
-	z-index: 5;
-}
-
-.expand:active{
-	background: url('../images/collapse.svg') no-repeat center top;
-}
-
-*/
 .expand,
 .expand:link,
 .expand:visited{
@@ -100,7 +83,8 @@ header {
 		box-shadow: inset 0px 0px 0px 4px #f7ec42;
 	}
 
-.expand:hover {
+.expand:hover,
+.expand:active{
 	color: #fff;
 	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
 	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
@@ -111,17 +95,19 @@ header {
 
 .nav {
 	width: 100%;
-	text-align: center;
+	text-align: right;
+	right: 3%;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited{
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	padding: 0.5rem;
 	color: #000;
 	text-align: center;
+	text-transform: uppercase;
 
 		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
 		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
