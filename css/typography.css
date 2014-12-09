@@ -102,6 +102,10 @@ a:active {
 	color: #000;
 }
 
+a:focus {
+  outline: 1px solid #fff;
+}
+
 .push {
 	margin-bottom: 1.5rem;
 }
