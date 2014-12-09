@@ -1,0 +1,30 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Brittany Hogg <emailme@brittanyhogg.ca>
+Site: http://brittanyhogg.ca
+GitHub: https://github.com/hbrittany
+Twitter: @hoggbrittany
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Professor: Thomas J Bradley
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text 2
+- GitHub
+- Markdown
+
+## Hosting
+
+- Hover <http://hover.com>
