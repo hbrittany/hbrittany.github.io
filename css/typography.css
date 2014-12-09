@@ -170,3 +170,33 @@ a:focus {
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
+
+.error h4,
+.error p {
+	text-transform: none;
+	color: #000;
+}
+
+.error a {
+	text-decoration: none;
+	padding: 1rem 1.5rem;
+	color: #f7ec42;
+	text-align: center;
+	text-transform: uppercase;
+
+		-webkit-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		box-shadow: inset 0px 0px 0px 4px #f7ec42;
+}
+
+.error a:hover,
+.error a:active{
+	color: #fff;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	box-shadow: inset 0px 0px 0px 40px #f7ec42;
+}

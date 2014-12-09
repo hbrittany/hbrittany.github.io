@@ -462,10 +462,9 @@ header {
 }
 
 .error {
-	padding: 7rem;
+	padding: 3rem 7rem;
 	background-color: #fff;
 	color: #f7ec42;
-	padding-bottom: 7rem;
 }
 
 
