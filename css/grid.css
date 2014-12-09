@@ -31,6 +31,14 @@
   width: 100%;
 }
 
+.unit-left {
+  float:left;
+}
+
+.unit-right {
+  float:right;
+}
+
 .gutter {
     padding: 0.5em;
 }
@@ -109,7 +117,7 @@
 }
 
 .unit-m-1-2 {
-  width: 50.0000%;
+  width: 46%;
 }
 
 .unit-offset-m-1-2 {
@@ -177,7 +185,7 @@
 }
 
 .unit-l-1-3 {
-  width: 30%;
+  width: 36%;
 }
 
 .unit-offset-l-1-3 {
