@@ -54,6 +54,7 @@ header {
 	}
 }
 
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -67,6 +68,7 @@ header {
 	z-index: 5;
 }
 
+/*
 .expand,
 .expand:link,
 .expand:visited{
@@ -77,9 +79,34 @@ header {
 	z-index: 5;
 }
 
-.expand:active,
-.expand:focus{
+.expand:active{
 	background: url('../images/collapse.svg') no-repeat center top;
+}
+
+*/
+.expand,
+.expand:link,
+.expand:visited{
+	text-decoration: none;
+	padding: 1rem 1.5rem;
+	color: #f7ec42;
+	text-align: center;
+	text-transform: uppercase;
+
+		-webkit-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		box-shadow: inset 0px 0px 0px 4px #f7ec42;
+	}
+
+.expand:hover {
+	color: #fff;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	box-shadow: inset 0px 0px 0px 40px #f7ec42;
 }
 
 .nav {
@@ -274,6 +301,7 @@ header {
 .blurb p {
 	font-size: 0.8889rem;
 	line-height: 1.6875;
+	padding-bottom: 1rem;
 }
 
 @media only screen and (min-width: 55em){
