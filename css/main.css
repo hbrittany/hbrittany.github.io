@@ -95,8 +95,7 @@ header {
 
 .nav {
 	width: 100%;
-	text-align: right;
-	right: 3%;
+	text-align: center;
 }
 
 .nav a,
@@ -104,7 +103,7 @@ header {
 .nav a:visited{
 	text-decoration: none;
 	display: inline-block;
-	padding: 0.5rem;
+	padding: 0.5rem 10rem;
 	color: #000;
 	text-align: center;
 	text-transform: uppercase;
@@ -145,6 +144,12 @@ header {
 	.nav-btn:visited{
 		display: none;
 	}
+
+	.nav a,
+	.nav a:link,
+	.nav a:visited{
+		padding: 0.5rem;
+	}
 }
 
 @media only screen and (min-width: 35em){
@@ -152,7 +157,8 @@ header {
 		text-align: center;
 		float: right;
 		position:inherit;
-		display: inline
+		display: inline;
+		right: 2%;
 	}
 	
 	.nav li{
