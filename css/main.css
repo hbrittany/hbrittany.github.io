@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: normal 100%/1.5 Muli,sans-serif;
-	background-color: #f7ec42;
+	background-color: #4b0b37;
 	text-align: center;
 }
 
@@ -72,15 +72,15 @@ header {
 .expand:visited{
 	text-decoration: none;
 	padding: 1rem 1.5rem;
-	color: #f7ec42;
+	color: #4b0b37;
 	text-align: center;
 	text-transform: uppercase;
 
-		-webkit-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-		-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-		-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-		-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
-		box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-webkit-box-shadow: inset 0px 0px 0px 4px #4b0b37;
+		-moz-box-shadow: inset 0px 0px 0px 4px #4b0b37;
+		-ms-box-shadow: inset 0px 0px 0px 4px #4b0b37;
+		-o-box-shadow: inset 0px 0px 0px 4px #4b0b37;
+		box-shadow: inset 0px 0px 0px 4px #4b0b37;
 	}
 
 .expand:hover,
