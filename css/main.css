@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: normal 100%/1.5 Muli,sans-serif;
-	background-color: #4b0b37;
+	background-color: #4b4b4b;
 	text-align: center;
 }
 
@@ -21,7 +21,7 @@ section {
 }
 
 header {
-	background-color: rgba(75,11,55,0.8);
+	background-color: rgba(75,75,75,0.7);
 	position: fixed;
 	z-index: 100;
 	width: 100%;
@@ -72,15 +72,15 @@ header {
 .expand:visited{
 	text-decoration: none;
 	padding: 1rem 1.5rem;
-	color: #4b0b37;
+	color: #4b4b4b;
 	text-align: center;
 	text-transform: uppercase;
 
-		-webkit-box-shadow: inset 0px 0px 0px 4px #4b0b37;
-		-moz-box-shadow: inset 0px 0px 0px 4px #4b0b37;
-		-ms-box-shadow: inset 0px 0px 0px 4px #4b0b37;
-		-o-box-shadow: inset 0px 0px 0px 4px #4b0b37;
-		box-shadow: inset 0px 0px 0px 4px #4b0b37;
+		-webkit-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
+		-moz-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
+		-ms-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
+		-o-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
+		box-shadow: inset 0px 0px 0px 4px #4b4b4b;
 	}
 
 .expand:hover,
@@ -203,9 +203,9 @@ header {
 
 
 .bio h2{
-	border-bottom: 2px solid #f7ec42;
+	border-bottom: 2px solid #4b4b4b;
 	padding-top: 3rem;
-	color: #f7ec42;
+	color: #4b4b4b;
 }
 
 .bio {
@@ -407,7 +407,7 @@ header {
 	-o-box-shadow: inset 0px 0px 0px 30px #fff;
 	box-shadow: inset 0px 0px 0px 30px #fff;
 	
-	color: #f7ec42;
+	color: #4b4b4b;
 }
 
 .data {
@@ -470,7 +470,7 @@ header {
 .error {
 	padding: 3rem 7rem;
 	background-color: #fff;
-	color: #f7ec42;
+	color: #4b4b4b;
 }
 
 .copyright {
