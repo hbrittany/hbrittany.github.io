@@ -22,7 +22,7 @@ section {
 }
 
 header {
-	background-color: rgba(30,39,62,0.6);
+	background-color: rgba(30,39,62,0.75);
 	position: fixed;
 	z-index: 100;
 	width: 100%;
