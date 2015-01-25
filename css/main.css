@@ -48,7 +48,7 @@ header {
 	.nav-logo {
 		margin: 0;
 		width: 70px;
-		padding-left: 1rem;
+		padding-left: 3rem;
 		height: 4rem;
 
 		visibility: visible;
@@ -225,6 +225,11 @@ header {
 .about {
 	padding: 0;
 	margin: 0 auto;
+}
+
+.about p {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
 }
 
 @media only screen and (min-width: 30em) {
