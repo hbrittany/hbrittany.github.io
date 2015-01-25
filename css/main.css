@@ -22,7 +22,7 @@ section {
 }
 
 header {
-	background-color: rgba(199,192,174,0.7);
+	background-color: rgba(30,39,62,0.4);
 	position: fixed;
 	z-index: 100;
 	width: 100%;
@@ -87,11 +87,11 @@ header {
 .expand:hover,
 .expand:active{
 	color: #fff;
-	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #1e273e;
+	-moz-box-shadow: inset 0px 0px 0px 40px #1e273e;
+	-ms-box-shadow: inset 0px 0px 0px 40px #1e273e;
+	-o-box-shadow: inset 0px 0px 0px 40px #1e273e;
+	box-shadow: inset 0px 0px 0px 40px #1e273e;
 }
 
 .nav {
@@ -234,7 +234,7 @@ header {
 		max-width: 20rem;
 	}
 
-	.about{
+	.about {
 		max-width:49rem;
 	}
 }
