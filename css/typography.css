@@ -1,19 +1,18 @@
 /* Typography */
 html {
-	font: normal 100%/1.5;
-	font-family: 'Muli', Arial, sans-serif;
+	font: normal 100%/1.5 'Muli', Arial, sans-serif;
 }
 
 h1, h2, h3, h5, h6,
 p, ul, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
-	font-family: 'Muli', Arial, sans-serif;
+	font-family: "Muli", Arial, sans-serif;
 	margin: 0 0 1.5rem;
 }
 
 h4 {
-	font-family: 'Muli', Arial, sans-serif;
+	font-family: "Muli", Arial, sans-serif;
 	margin: 0;
 }
 
@@ -71,12 +70,12 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-	font-family: 'Muli',sans-serif;
+	font-family: "Muli",sans-serif;
 	text-transform: uppercase; 
 }
 
 .brand-family {
-	font-family: 'Muli',sans-serif;
+	font-family: "Muli",sans-serif;
 }
 
 .brand-color {
