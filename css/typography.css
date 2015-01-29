@@ -1,6 +1,6 @@
 /* Typography */
 html {
-	font: normal 100%/1.5 Muli,sans-serif;
+	font: normal 100%/1.5 Muli, Arial, sans-serif;
 }
 
 h1, h2, h3, h5, h6,
@@ -13,6 +13,7 @@ fieldset, pre, table {
 h4 {
 	margin: 0;
 }
+
 .yotta {
 	font-size: 2.2807rem;
 	line-height: 1.3154;
