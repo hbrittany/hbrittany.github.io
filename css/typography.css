@@ -8,10 +8,12 @@ h1, h2, h3, h5, h6,
 p, ul, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
+	font-family: 'Muli', Arial, sans-serif;
 	margin: 0 0 1.5rem;
 }
 
 h4 {
+	font-family: 'Muli', Arial, sans-serif;
 	margin: 0;
 }
 
@@ -220,8 +222,4 @@ a:active {
 	text-align: right;
 	font-weight: 400;
 	padding-top: none;
-}
-
-.details a {
-	font-weight: 300;
 }
