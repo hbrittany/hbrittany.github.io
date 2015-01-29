@@ -3,13 +3,16 @@ html {
 	font: normal 100%/1.5 Muli,sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure,
+h1, h2, h3, h5, h6,
+p, ul, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
 	margin: 0 0 1.5rem;
 }
 
+h4 {
+	margin: 0;
+}
 .yotta {
 	font-size: 2.2807rem;
 	line-height: 1.3154;
@@ -100,9 +103,6 @@ a:active {
 	color: #000;
 }
 
-a:focus {
-  outline: 1px solid #fff;
-}
 
 .push {
 	margin-bottom: 1.5rem;
@@ -201,3 +201,25 @@ a:focus {
 	box-shadow: inset 0px 0px 0px 40px #f7ec42;
 }
 
+.piece h4 {
+	color: #1e273e;
+	border-bottom: 2px solid #1e273e;
+}
+
+.piece p {
+	color: #000;
+	padding: 1rem 1rem 0;
+	text-align: right;
+}
+
+.details {
+	text-transform: uppercase;
+	color: #1e273e;
+	text-align: right;
+	font-weight: 900;
+	padding-top: none;
+}
+
+.details a {
+	font-weight: none;
+}

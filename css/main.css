@@ -4,6 +4,7 @@ body {
 	font: normal 100%/1.5 Muli,sans-serif;
 	background-color: #1e273e;
 	text-align: center;
+	color: #c7c0ae;
 }
 
 img {
@@ -11,10 +12,11 @@ img {
 	margin: 0 auto;
 }
 
-.img-flex {
-	display: block;
-	width: 100%;
+.flex-img {
+  display: block;
+  width: 100%;
 }
+
 
 section {
 	padding: 5rem 0;
@@ -29,8 +31,10 @@ header {
 }
 
 .nav-logo {
-	height: 0;
-	visibility: hidden;
+	margin: 0;
+	width: 70px;
+	padding-left: 1.5rem;
+
 }
 
 .logo {
@@ -39,19 +43,17 @@ header {
 
 .logo-wrapper {
 	margin: 0;
-	padding: 0;
+	padding-top: .5rem;
 	font-size: 1em;
+	float: left;
+	display: inline-block;
 }
 
 @media only screen and (min-width: 35em) {
 
 	.nav-logo {
-		margin: 0;
-		width: 70px;
+		padding-bottom: .5rem;
 		padding-left: 3rem;
-		height: 4rem;
-
-		visibility: visible;
 	}
 }
 
@@ -82,7 +84,7 @@ header {
 		-ms-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
 		-o-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
 		box-shadow: inset 0px 0px 0px 4px #4b4b4b;
-	}
+}
 
 .expand:hover,
 .expand:active{
@@ -218,18 +220,19 @@ header {
 	overflow: hidden;
 }
 
-.bio img {
+.about p {
+	padding: 1rem 0 2rem;
+}
+
+.about img {
 	max-width: 20rem;
 }
 
-.about {
-	padding: 0;
-	margin: 0 auto;
-}
-
-.about p {
-	padding-top: 3rem;
-	padding-bottom: 2rem;
+.profile {
+	max-width: 15rem;
+	border-radius: 120px;
+	margin-bottom: 1rem;
+	margin-top: 2.5rem;
 }
 
 @media only screen and (min-width: 30em) {
@@ -369,10 +372,6 @@ header {
 	display: block;
 }
 
-.gallery img {
-	padding-top: 0.5rem;
-}
-
 .media {
 	margin: 0;
 	padding: 0;
@@ -417,6 +416,45 @@ header {
 	color: #4b4b4b;
 }
 
+.piece li {
+	margin: 0 .5rem;
+	list-style-type: none;
+}
+
+.piece li a,
+.piece li a:link,
+.piece li:visited {
+	float: right;
+	height: 40px;
+	width: 50px;
+	margin-right: .5rem;
+	text-align: center;
+	padding-top: .8125rem;
+	text-decoration: none;
+	
+	color: #1e273e;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 4px #1e273e;
+	-moz-box-shadow: inset 0px 0px 0px 4px #1e273e;
+	-ms-box-shadow: inset 0px 0px 0px 4px #1e273e;
+	-o-box-shadow: inset 0px 0px 0px 4px #1e273e;
+	box-shadow: inset 0px 0px 0px 4px #1e273e;
+}
+
+.piece li a:hover,
+.piece li a:focus,
+.piece li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 30px #1e273e;
+	-moz-box-shadow: inset 0px 0px 0px 30px #1e273e;
+	-ms-box-shadow: inset 0px 0px 0px 30px #1e273e;
+	-o-box-shadow: inset 0px 0px 0px 30px #1e273e;
+	box-shadow: inset 0px 0px 0px 30px #1e273e;
+	
+	color: #fff;
+}
+
+
+
 .data {
   margin: 2rem auto 4rem;
   overflow: hidden;
@@ -449,7 +487,18 @@ header {
 }
 
 .data__info {
-  margin: 0;
+  margin: 0 0 1.5rem;
+  color: #c7c3ba;
+}
+
+.data__info a:active,
+.data__info a:link,
+.data__info a:visited {
+  color: #c7c3ba;
+}
+
+.data__info a:hover{
+  color: #eae6da;
 }
 
 .expanded {
@@ -484,8 +533,61 @@ header {
 	bottom: 0;
 }
 
+.piece {
+	background-color: #fff;
+}
 
+.gallery {
+	background-color: #fff;
+}
 
+.gallery div:hover {
+	opacity: 0.85;
+}
 
+.about {
+	margin: 0 auto;
+	max-width: 25rem;
+	padding: 1rem;
+}
 
+.about p {
+	color: #000;
+}
 
+.work {
+	position: static;
+}
+
+figure {
+	background-color: #e0ddd1;
+	padding-bottom: .2rem;
+}
+
+.work {
+	padding-top: 1.5rem;
+}
+
+@media only screen and (min-width: 45em) {
+	.fixed {
+		position: fixed;
+	}
+
+	.right {
+		right: 0;
+		position: fixed;
+	}
+
+	.left {
+		float: left;
+		margin-top: 5rem;
+	}
+
+	.piece .title {
+		padding: 1rem;
+	}
+}
+
+.piece a {
+	color: #1e273e;
+}
