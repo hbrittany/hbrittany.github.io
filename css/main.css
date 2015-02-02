@@ -547,6 +547,13 @@ figure {
 		position: fixed;
 	}
 
+	.right p {
+		margin-right: 2rem;
+	}
+
+	.right li {
+		margin-right: 2rem;
+	}
 	.left {
 		float: left;
 		margin-top: 5rem;
