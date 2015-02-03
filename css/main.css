@@ -397,7 +397,7 @@ header {
 	float: right;
 	height: 40px;
 	width: 50px;
-	margin-right: .5rem;
+	margin-left: .5rem;
 	text-align: center;
 	padding-top: .8125rem;
 	text-decoration: none;
@@ -549,9 +549,14 @@ figure {
 	.right li {
 		margin-right: 2rem;
 	}
+
 	.left {
 		float: left;
 		margin-top: 5rem;
+	}
+
+	.left li {
+		padding-left: 1rem;
 	}
 
 	.piece .title {
