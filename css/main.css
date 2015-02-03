@@ -241,10 +241,6 @@ header {
 		position: absolute;
 		max-width: 20rem;
 	}
-
-	.about {
-		max-width:35rem;
-	}
 }
 /*---- expand ----*/
 
@@ -516,7 +512,7 @@ header {
 
 .about {
 	margin: 0 auto;
-	max-width: 25rem;
+	max-width: 35rem;
 	padding: 1rem;
 }
 
