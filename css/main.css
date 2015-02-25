@@ -38,7 +38,8 @@ header {
 }
 
 .logo {
-	width: 80%;
+	width: 100%;
+	max-width: 20rem;
 }
 
 .logo-wrapper {
@@ -55,6 +56,11 @@ header {
 		padding-bottom: .5rem;
 		padding-left: 3rem;
 	}
+
+	.logo {
+		padding-bottom: 4rem;
+	}
+
 }
 
 .nav-btn,
@@ -318,7 +324,7 @@ header {
 .intro-section {
 	background: transparent url('../images/coverimg.jpg') no-repeat center center;
 	background-size: cover;
-	padding: 6.5rem 0;
+	padding: 6.5rem;
 	margin: 0;
 }
 
