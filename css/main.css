@@ -592,14 +592,18 @@ figure {
 	color: #c7c0ae;
 	background: #fff;
 	margin-top: 25px;
-	/*
+}
+
+
+@media only screen and (min-width: 60em) {
+	
+	.button {
 		-webkit-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
 		-moz-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
 		-ms-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
 		-o-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
 		box-shadow: inset 0px 0px 0px 3px #c7c0ae;
 }
-
 
 .button:hover {
 	text-decoration: none;
@@ -610,4 +614,5 @@ figure {
 	-ms-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
 	-o-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
 	box-shadow: inset 0px 0px 0px 40px #c7c0ae;
-} */
+}
+}
