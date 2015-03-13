@@ -6,7 +6,7 @@ var $mediaSection = $('.media-section');
 $win.on('scroll', function () {
   var scrollPos = $win.scrollTop();
 
-  $introSection.css('background-position', 'center ' + scrollPos / 1 + 'px');
+  $introSection.css('background-position', 'center ' + scrollPos / 3 + 'px');
 
 
 })

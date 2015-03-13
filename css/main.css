@@ -105,6 +105,7 @@ header {
 .nav {
 	width: 100%;
 	text-align: center;
+	letter-spacing: 0.15em;
 }
 
 .nav a,
@@ -215,6 +216,7 @@ header {
 	border-bottom: 2px solid #4b4b4b;
 	padding: 3rem 0;
 	color: #4b4b4b;
+
 }
 
 .bio {
@@ -573,3 +575,39 @@ figure {
 .piece a {
 	color: #1e273e;
 }
+
+.button a, 
+.button a:link,
+.button a:visited {
+	color: #c7c0ae;
+}
+
+.button {
+	font-size: 13px;
+	letter-spacing: 0.15em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: .5rem 1rem;
+	color: #c7c0ae;
+	background: #fff;
+	margin-top: 25px;
+	/*
+		-webkit-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
+		-moz-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
+		-ms-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
+		-o-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
+		box-shadow: inset 0px 0px 0px 3px #c7c0ae;
+}
+
+
+.button:hover {
+	text-decoration: none;
+	color: #ffffff;
+
+	-webkit-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
+	-moz-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
+	-ms-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
+	-o-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
+	box-shadow: inset 0px 0px 0px 40px #c7c0ae;
+} */

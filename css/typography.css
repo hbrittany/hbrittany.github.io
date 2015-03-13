@@ -34,6 +34,7 @@ h1, .exa {
 h2, .peta {
 	font-size: 1.6018rem;
 	line-height: 1.8729;
+	letter-spacing: 0.1em;
 }
 
 h3, .tera {
@@ -92,18 +93,8 @@ h1, h2, h3, h4, h5, h6,
 a,
 a:link {
 	transition: all 150ms linear;
-	color: #000;
 	text-decoration: none;
-}
 
-a:visited {
-	color: #000;
-}
-
-a:hover,
-a:focus,
-a:active {
-	color: #000;
 }
 
 .push {
@@ -196,11 +187,12 @@ a:active {
 .error a:hover,
 .error a:active{
 	color: #fff;
+	/*
 	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
 	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
 	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
 	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
-	box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	box-shadow: inset 0px 0px 0px 40px #f7ec42; */
 }
 
 .piece h4 {
@@ -220,4 +212,18 @@ a:active {
 	text-align: left;
 	font-weight: 400;
 	padding-top: none;
+}
+
+figcaption {
+	color: #000;
+}
+
+.quote {
+	background: #fff;
+	color: #1e273e;
+	padding: 6rem 1rem 0;
+	max-width: 30rem;
+	margin: auto auto;
+	font-size: 2rem; 
+
 }
