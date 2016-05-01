@@ -24,7 +24,7 @@ section {
 }
  
 header {
-	background-color: rgba(30,39,62,0.75);
+	background-color: rgb(30,39,62);
 	position: fixed;
 	z-index: 100;
 	width: 100%;
