@@ -520,6 +520,7 @@ header {
 
 .gallery {
 	background-color: #fff;
+	max-width: 1200px;
 }
 
 .gallery div:hover {
