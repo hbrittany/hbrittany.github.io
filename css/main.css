@@ -528,7 +528,7 @@ figure {
 	padding-top: 1.5rem;
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 55em) {
 	.fixed {
 		position: fixed;
 	}
