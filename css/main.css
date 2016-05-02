@@ -2,9 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 	font: normal 100%/1.5 Muli,sans-serif;
-	background-color: #1e273e;
 	text-align: center;
-	color: #c7c0ae;
+	background-color: #fff;
 }
 
 img {
@@ -37,9 +36,9 @@ header {
 
 }
 
-.logo {
+.about .logo {
 	width: 100%;
-	max-width: 20rem;
+	max-width: 3.5rem;
 }
 
 .logo-wrapper {
@@ -58,7 +57,7 @@ header {
 	}
 
 	.logo {
-		padding-bottom: 4rem;
+		padding-bottom: 1rem;
 	}
 
 }
@@ -211,14 +210,6 @@ header {
 	}
 }
 
-
-.bio h2{
-	border-bottom: 2px solid #4b4b4b;
-	padding: 3rem 0;
-	color: #4b4b4b;
-
-}
-
 .bio {
 	background-color: #fff;
 	height: 100%;
@@ -228,20 +219,15 @@ header {
 	overflow: hidden;
 }
 
-.about p {
-	color: #000;
+.intro {
+	margin: 2rem auto;
+	max-width: 36rem;
 }
-
-.about img {
-	padding-top: 2.5rem;
-	max-width: 15rem;
-}
-
 
 .about {
-	margin: 0 auto;
-	max-width: 29rem;
-	padding: 1rem;
+	background-color: rgba(30,39,62,0.96);
+	padding: 2rem;
+	width: auto;
 }
 
 .profile {
@@ -326,10 +312,17 @@ header {
 .intro-section {
 	background: transparent url('../images/coverimg.jpg') no-repeat center center;
 	background-size: cover;
-	padding: 6.5rem;
+	padding: 0;
 	margin: 0;
 }
 
+.intro-section h1 {
+	margin-bottom: 0;
+}
+
+.intro-section a{
+	margin: 2rem;
+}
 
 .media-section {
 	background: transparent url('../images/bottom-3.jpg') no-repeat center bottom;
@@ -447,7 +440,7 @@ header {
 @media only screen and (min-width: 55em){
 	.data__item{
 		border-right: 1px solid #fff;
-		float: left;
+		float: middle;
 		width: 33%;
 	}
 	
@@ -465,18 +458,18 @@ header {
 }
 
 .data__info {
-  margin: 0 0 1.5rem;
-  color: #c7c3ba;
+  margin: 0 0 auto;
+  color: #1e273e;
 }
 
 .data__info a:active,
 .data__info a:link,
 .data__info a:visited {
-  color: #c7c3ba;
+  color: #1e273e;
 }
 
 .data__info a:hover{
-  color: #eae6da;
+  color: #222222;
 }
 
 .expanded {
@@ -491,14 +484,6 @@ header {
 .expanded p {
 	margin: 1rem auto;
 	max-width: 25rem;
-}
-
-.push {
-	margin-bottom: 1.5rem;
-}
-
-.push-none, .push-0 {
-	margin-bottom: 0;
 }
 
 .error {
@@ -521,6 +506,9 @@ header {
 .gallery {
 	background-color: #fff;
 	max-width: 1000px;
+	float: middle;
+	padding: 0;
+	margin: 0;
 }
 
 .gallery div:hover {
@@ -533,7 +521,6 @@ header {
 }
 
 figure {
-	background-color: #e0ddd1;
 	padding-bottom: .2rem;
 }
 
@@ -568,9 +555,10 @@ figure {
 		padding-left: 1rem;
 	}
 
-	.piece .title {
-		padding: 1rem;
-	}
+}
+
+.piece .title {
+		padding: 4rem 0 1rem;
 }
 
 .piece a {

@@ -3,12 +3,18 @@ html {
 	font: normal 100%/1.5 'Muli', Arial, sans-serif;
 }
 
-h1, h2, h3, h5, h6,
+h1, h2, h3, h6,
 p, ul, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
 	font-family: 'Muli', sans-serif;
 	margin: 0 0 1.5rem;
+}
+
+h2 {
+	border-top: 2px solid #4b4b4b;
+	padding: 3rem 0 0 0;
+	color: #4b4b4b;
 }
 
 h4 {
@@ -50,7 +56,8 @@ h4, .giga {
 h5, .mega {
 	font-size: 1.1250rem;
 	line-height: 1.3333;
-	color: #c7c0ae;
+	font-family: 'Muli', sans-serif;
+	margin: 0 0 0.5rem;
 }
 
 h6, .kilo {
@@ -69,7 +76,7 @@ small, .milli {
 	line-height: 1.4;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h6,
 .brand {
 	font-family: "Muli",sans-serif;
 	text-transform: uppercase; 
@@ -83,13 +90,6 @@ h1, h2, h3, h4, h5, h6,
 	color: #c7c0ae;
 }
 
-.section-heading {
-	border-bottom: 2px solid #FFF;
-	margin-top: 3rem;
-	color: #FFF;
-	padding: 3rem;
-}
-
 a,
 a:link {
 	transition: all 150ms linear;
@@ -98,7 +98,7 @@ a:link {
 }
 
 .push {
-	margin-bottom: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 .push-none, .push-0 {
@@ -221,9 +221,11 @@ figcaption {
 .quote {
 	background: #fff;
 	color: #1e273e;
-	padding: 6rem 1rem 0;
-	max-width: 30rem;
+	padding: 3rem 1rem 3rem;
 	margin: auto auto;
 	font-size: 2rem; 
+}
 
+.about {
+	color:#eee;
 }
