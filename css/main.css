@@ -395,7 +395,7 @@ header {
 .piece li a,
 .piece li a:link,
 .piece li:visited {
-	float: right;
+	float: left;
 	height: 40px;
 	width: 50px;
 	margin-left: .5rem;
