@@ -576,7 +576,7 @@ figure {
 	text-decoration: none;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 2rem;
+	padding: 1rem 2rem;
 	color: #c7c0ae;
 	background: #fff;
 	margin-top: 25px;
@@ -586,21 +586,21 @@ figure {
 @media only screen and (min-width: 60em) {
 	
 	.button {
-		-webkit-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
-		-moz-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
-		-ms-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
-		-o-box-shadow: inset 0px 0px 0px 3px #c7c0ae;
-		box-shadow: inset 0px 0px 0px 3px #c7c0ae;
+		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
+		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
+		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
+		-o-box-shadow: inset 0px 0px 0px 0px #fff;
+		box-shadow: inset 0px 0px 0px 0px #fff;
 }
 
 .button:hover {
 	text-decoration: none;
 	color: #ffffff;
 
-	-webkit-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
-	-moz-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
-	-ms-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
-	-o-box-shadow: inset 0px 0px 0px 40px #c7c0ae;
-	box-shadow: inset 0px 0px 0px 40px #c7c0ae;
+	-webkit-box-shadow: inset 0px 0px 0px 2px #ccc;
+	-moz-box-shadow: inset 0px 0px 0px 2px #ccc;
+	-ms-box-shadow: inset 0px 0px 0px 2px #ccc;
+	-o-box-shadow: inset 0px 0px 0px 2px #ccc;
+	box-shadow: inset 0px 0px 0px 2px #ccc;
 }
 }
