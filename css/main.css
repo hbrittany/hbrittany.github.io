@@ -83,21 +83,21 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 
-		-webkit-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
-		-moz-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
-		-ms-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
-		-o-box-shadow: inset 0px 0px 0px 4px #4b4b4b;
-		box-shadow: inset 0px 0px 0px 4px #4b4b4b;
+		-webkit-box-shadow: inset 0px 0px 0px 0px #4b4b4b;
+		-moz-box-shadow: inset 0px 0px 0px 0px #4b4b4b;
+		-ms-box-shadow: inset 0px 0px 0px 0px #4b4b4b;
+		-o-box-shadow: inset 0px 0px 0px 0px #4b4b4b;
+		box-shadow: inset 0px 0px 0px 0px #4b4b4b;
 }
 
 .expand:hover,
 .expand:active{
 	color: #fff;
-	-webkit-box-shadow: inset 0px 0px 0px 40px #1e273e;
-	-moz-box-shadow: inset 0px 0px 0px 40px #1e273e;
-	-ms-box-shadow: inset 0px 0px 0px 40px #1e273e;
-	-o-box-shadow: inset 0px 0px 0px 40px #1e273e;
-	box-shadow: inset 0px 0px 0px 40px #1e273e;
+	-webkit-box-shadow: inset 0px 0px 0px 2px #1e273e;
+	-moz-box-shadow: inset 0px 0px 0px 2px #1e273e;
+	-ms-box-shadow: inset 0px 0px 0px 2px #1e273e;
+	-o-box-shadow: inset 0px 0px 0px 2px #1e273e;
+	box-shadow: inset 0px 0px 0px 2px #1e273e;
 }
 
 .nav {
@@ -112,24 +112,13 @@ header {
 	text-decoration: none;
 	display: inline-block;
 	padding: 0.5rem 10rem;
-	color: #fff;
+	color: #bdbdbd;
 	text-align: center;
 	text-transform: uppercase;
-
-		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
-		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
-		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
-		-o-box-shadow: inset 0px 0px 0px 0px #fff;
-		box-shadow: inset 0px 0px 0px 0px #fff;
 }
 
 .nav a:hover {
 	color: #fff;
-	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 3px #fff;
-	-o-box-shadow: inset 0px 0px 0px 3px #fff;
-	box-shadow: inset 0px 0px 0px 3px #fff;
 }
 
 .nav ul {
@@ -520,11 +509,11 @@ header {
 }
 
 .shadow {
-	box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, .1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-figure {
-	padding-bottom: .2rem;
+figure:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media only screen and (min-width: 55em) {
@@ -577,7 +566,7 @@ figure {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 1rem 2rem;
-	color: #c7c0ae;
+	color: #bbb;
 	background: #fff;
 	margin-top: 25px;
 }
@@ -586,21 +575,21 @@ figure {
 @media only screen and (min-width: 60em) {
 	
 	.button {
-		-webkit-box-shadow: inset 0px 0px 0px 0px #fff;
-		-moz-box-shadow: inset 0px 0px 0px 0px #fff;
-		-ms-box-shadow: inset 0px 0px 0px 0px #fff;
-		-o-box-shadow: inset 0px 0px 0px 0px #fff;
-		box-shadow: inset 0px 0px 0px 0px #fff;
+		-webkit-box-shadow: inset 0px 0px 0px 0px #ccc;
+		-moz-box-shadow: inset 0px 0px 0px 0px #ccc;
+		-ms-box-shadow: inset 0px 0px 0px 0px #ccc;
+		-o-box-shadow: inset 0px 0px 0px 0px #ccc;
+		box-shadow: inset 0px 0px 0px 0px #ccc;
 }
 
 .button:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #eee;
 
-	-webkit-box-shadow: inset 0px 0px 0px 2px #ccc;
-	-moz-box-shadow: inset 0px 0px 0px 2px #ccc;
-	-ms-box-shadow: inset 0px 0px 0px 2px #ccc;
-	-o-box-shadow: inset 0px 0px 0px 2px #ccc;
-	box-shadow: inset 0px 0px 0px 2px #ccc;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #eee;
+	-moz-box-shadow: inset 0px 0px 0px 3px #eee;
+	-ms-box-shadow: inset 0px 0px 0px 3px #eee;
+	-o-box-shadow: inset 0px 0px 0px 3px #eee;
+	box-shadow: inset 0px 0px 0px 3px #eee;
 }
 }

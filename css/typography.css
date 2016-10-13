@@ -3,6 +3,10 @@ html {
 	font: normal 100%/1.5 'Muli', Arial, sans-serif;
 }
 
+strong {
+	font-weight: bold;
+}
+
 h1, h2, h3, h6,
 p, ul, ol, dl, dd,
 blockquote, details, hr,
@@ -216,6 +220,7 @@ a:link {
 
 figcaption {
 	color: #000;
+	padding-bottom: 0.2rem;
 }
 
 .quote {
